@@ -200,6 +200,32 @@ CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp -o CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.s
 
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/flags.make
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o -c /home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp
+
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp > CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.i
+
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp -o CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.s
+
+CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/flags.make
+CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o: ../Components/MovementComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o -c /home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp
+
+CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp > CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.i
+
+CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp -o CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.s
+
 # Object files for target Zombie_vs_Humans
 Zombie_vs_Humans_OBJECTS = \
 "CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o" \
@@ -212,7 +238,9 @@ Zombie_vs_Humans_OBJECTS = \
 "CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o" \
 "CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o" \
 "CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o" \
-"CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
+"CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o" \
+"CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o" \
+"CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
 
 # External object files for target Zombie_vs_Humans
 Zombie_vs_Humans_EXTERNAL_OBJECTS =
@@ -228,9 +256,11 @@ Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o
 Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o
 Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o
 Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o
+Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o
+Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o
 Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/build.make
 Zombie_vs_Humans: CMakeFiles/Zombie_vs_Humans.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Zombie_vs_Humans"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Zombie_vs_Humans"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Zombie_vs_Humans.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

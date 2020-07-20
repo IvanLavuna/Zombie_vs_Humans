@@ -150,6 +150,33 @@ Components/AnimationComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.s
 .PHONY : Components/AnimationComponent.cpp.s
 
+Components/MovementComponent.o: Components/MovementComponent.cpp.o
+
+.PHONY : Components/MovementComponent.o
+
+# target to build an object file
+Components/MovementComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o
+.PHONY : Components/MovementComponent.cpp.o
+
+Components/MovementComponent.i: Components/MovementComponent.cpp.i
+
+.PHONY : Components/MovementComponent.i
+
+# target to preprocess a source file
+Components/MovementComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.i
+.PHONY : Components/MovementComponent.cpp.i
+
+Components/MovementComponent.s: Components/MovementComponent.cpp.s
+
+.PHONY : Components/MovementComponent.s
+
+# target to generate assembly for a file
+Components/MovementComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.s
+.PHONY : Components/MovementComponent.cpp.s
+
 Entities/Entity.o: Entities/Entity.cpp.o
 
 .PHONY : Entities/Entity.o
@@ -176,6 +203,33 @@ Entities/Entity.s: Entities/Entity.cpp.s
 Entities/Entity.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.s
 .PHONY : Entities/Entity.cpp.s
+
+Entities/Human.o: Entities/Human.cpp.o
+
+.PHONY : Entities/Human.o
+
+# target to build an object file
+Entities/Human.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o
+.PHONY : Entities/Human.cpp.o
+
+Entities/Human.i: Entities/Human.cpp.i
+
+.PHONY : Entities/Human.i
+
+# target to preprocess a source file
+Entities/Human.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.i
+.PHONY : Entities/Human.cpp.i
+
+Entities/Human.s: Entities/Human.cpp.s
+
+.PHONY : Entities/Human.s
+
+# target to generate assembly for a file
+Entities/Human.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.s
+.PHONY : Entities/Human.cpp.s
 
 ErrorHandling/FileErrorLog.o: ErrorHandling/FileErrorLog.cpp.o
 
@@ -432,9 +486,15 @@ help:
 	@echo "... Components/AnimationComponent.o"
 	@echo "... Components/AnimationComponent.i"
 	@echo "... Components/AnimationComponent.s"
+	@echo "... Components/MovementComponent.o"
+	@echo "... Components/MovementComponent.i"
+	@echo "... Components/MovementComponent.s"
 	@echo "... Entities/Entity.o"
 	@echo "... Entities/Entity.i"
 	@echo "... Entities/Entity.s"
+	@echo "... Entities/Human.o"
+	@echo "... Entities/Human.i"
+	@echo "... Entities/Human.s"
 	@echo "... ErrorHandling/FileErrorLog.o"
 	@echo "... ErrorHandling/FileErrorLog.i"
 	@echo "... ErrorHandling/FileErrorLog.s"

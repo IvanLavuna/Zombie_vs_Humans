@@ -104,10 +104,22 @@
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Components/AnimationComponent.h">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.h">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.cpp">

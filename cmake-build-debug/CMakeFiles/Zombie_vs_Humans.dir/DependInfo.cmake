@@ -5,7 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Components/AnimationComponent.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o"

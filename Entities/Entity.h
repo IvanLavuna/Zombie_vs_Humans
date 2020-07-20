@@ -5,10 +5,18 @@
 #ifndef ZOMBIE_VS_HUMANS_ENTITY_H
 #define ZOMBIE_VS_HUMANS_ENTITY_H
 
+#include "AnimationComponent.h"
 
 class Entity
 {
+private:
 
+protected:
+	AnimationComponent* _animComponent;
+
+public:
+	Entity();
+	virtual ~Entity();
 };
 
 

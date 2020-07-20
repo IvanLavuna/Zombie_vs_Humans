@@ -1,0 +1,15 @@
+//
+// Created by ivan on 20.07.20.
+//
+
+#ifndef ZOMBIE_VS_HUMANS_MOVEMENTCOMPONENT_H
+#define ZOMBIE_VS_HUMANS_MOVEMENTCOMPONENT_H
+
+
+class MovementComponent
+{
+
+};
+
+
+#endif //ZOMBIE_VS_HUMANS_MOVEMENTCOMPONENT_H
