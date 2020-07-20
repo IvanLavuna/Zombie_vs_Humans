@@ -1,0 +1,3 @@
+/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Zombie_vs_Humans"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zombie_vs_Humans">
+				<Option output="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Zombie_vs_Humans" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/States"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Source"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Components"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Animation"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 Zombie_vs_Humans"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Zombie_vs_Humans/fast">
+				<Option output="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Zombie_vs_Humans" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/States"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Source"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Components"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Animation"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 Zombie_vs_Humans/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Components/AnimationComponent.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Components/AnimationComponent.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/GameTexture.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/GameTexture.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/main.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/GameState.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/GameState.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/State.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/State.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface/gui.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface/gui.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/snap/clion/114/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivan/CLionProjects/Zombie_vs_Humans
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug
