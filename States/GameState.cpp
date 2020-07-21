@@ -1,7 +1,7 @@
 //
 // Created by ivan on 15.07.20.
 //
-
+#include "pch.h"
 #include "GameState.h"
 
 /// initialisation

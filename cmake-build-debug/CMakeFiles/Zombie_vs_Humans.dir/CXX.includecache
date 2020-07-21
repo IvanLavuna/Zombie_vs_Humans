@@ -7,20 +7,40 @@
 #IncludeRegexTransform: 
 
 ../Components/AnimationComponent.h
-GameTexture.h
-../Components/GameTexture.h
 
 ../ErrorHandling/FileErrorLog.h
 IErrorLog.h
 ../ErrorHandling/IErrorLog.h
 
 ../ErrorHandling/IErrorLog.h
-string
+
+../Headers/pch.h
+algorithm
+-
+cmath
+-
+iostream
 -
 fstream
 -
-
-../Source/GameTexture.h
+sstream
+-
+cassert
+-
+functional
+-
+stack
+-
+vector
+-
+queue
+-
+string
+-
+map
+-
+boost/filesystem.hpp
+-
 SFML/Graphics.hpp
 -
 SFML/Window.hpp
@@ -31,24 +51,8 @@ SFML/System.hpp
 -
 SFML/Audio.hpp
 -
-iostream
--
-stack
--
-vector
--
-iostream
--
-fstream
--
-cassert
--
-functional
--
-string
--
-boost/filesystem.hpp
--
+
+../Source/GameTexture.h
 
 ../States/MainMenuState.h
 gui.h
@@ -57,18 +61,58 @@ FileErrorLog.h
 ../States/FileErrorLog.h
 AnimationComponent.h
 ../States/AnimationComponent.h
+State.h
+../States/State.h
 
 ../States/State.h
 GameTexture.h
 ../States/GameTexture.h
 
 ../graphical_interface/gui.h
-State.h
-../graphical_interface/State.h
 FileErrorLog.h
 ../graphical_interface/FileErrorLog.h
 
+/home/ivan/CLionProjects/Zombie_vs_Humans/Headers/pch.h
+algorithm
+-
+cmath
+-
+iostream
+-
+fstream
+-
+sstream
+-
+cassert
+-
+functional
+-
+stack
+-
+vector
+-
+queue
+-
+string
+-
+map
+-
+boost/filesystem.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/Network.hpp
+-
+SFML/System.hpp
+-
+SFML/Audio.hpp
+-
+
 /home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp
+pch.h
+/home/ivan/CLionProjects/Zombie_vs_Humans/Source/pch.h
 Game.h
 /home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.h
 
@@ -79,18 +123,12 @@ FileErrorLog.h
 /home/ivan/CLionProjects/Zombie_vs_Humans/Source/FileErrorLog.h
 
 /home/ivan/CLionProjects/Zombie_vs_Humans/Source/main.cpp
+pch.h
+/home/ivan/CLionProjects/Zombie_vs_Humans/Source/pch.h
 Game.h
 /home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.h
 
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.cpp
-MainMenuState.h
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.h
-
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.h
-gui.h
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/gui.h
-FileErrorLog.h
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/FileErrorLog.h
-AnimationComponent.h
-/home/ivan/CLionProjects/Zombie_vs_Humans/States/AnimationComponent.h
+/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+/home/ivan/CLionProjects/Zombie_vs_Humans/Headers/pch.h
+-
 

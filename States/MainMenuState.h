@@ -8,6 +8,7 @@
 #include "gui.h"
 #include "FileErrorLog.h"
 #include "AnimationComponent.h"
+#include "State.h"
 
 class MainMenuState : public State
 {

@@ -1,7 +1,7 @@
 //
 // Created by ivan on 16.07.20.
 //
-
+#include "pch.h"
 #include "GameTexture.h"
 
 /// constructor/destructor

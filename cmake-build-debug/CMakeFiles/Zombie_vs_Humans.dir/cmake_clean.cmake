@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o"
+  "CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch"
   "CMakeFiles/Zombie_vs_Humans.dir/graphical_interface/gui.cpp.o"
   "Zombie_vs_Humans"
   "Zombie_vs_Humans.pdb"

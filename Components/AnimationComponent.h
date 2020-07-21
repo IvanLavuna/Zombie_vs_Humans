@@ -15,7 +15,6 @@
  * THIS class is totally uncompleted
  * **/
 
-#include"GameTexture.h"
 
 /** levels of rendering
  * ZERO - this level renders first

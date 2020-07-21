@@ -22,7 +22,6 @@ private:
 	float _dt;
 
 	std::stack<State*> _states;
-
 	/// initialisation
 	void initWindow();
 	void initMainMenuState();

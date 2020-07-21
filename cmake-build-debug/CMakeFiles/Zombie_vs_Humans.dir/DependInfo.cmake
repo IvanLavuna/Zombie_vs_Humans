@@ -5,18 +5,33 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Components/AnimationComponent.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Components/MovementComponent.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/GameTexture.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/main.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/States/GameState.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/States/MainMenuState.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/States/State.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.cxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface/gui.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/graphical_interface/gui.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/graphical_interface/gui.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,6 +44,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Components"
   "../Animation"
   "../Entities"
+  "../Headers"
   )
 
 # Targets to which this target links.

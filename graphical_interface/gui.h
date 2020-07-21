@@ -4,10 +4,7 @@
 
 #ifndef ZOMBIE_VS_HUMANS_GUI_H
 #define ZOMBIE_VS_HUMANS_GUI_H
-#include "State.h"
 #include "FileErrorLog.h"
-
-
 
 
 namespace gui

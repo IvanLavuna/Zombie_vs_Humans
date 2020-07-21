@@ -5,21 +5,6 @@
 #ifndef ZOMBIE_VS_HUMANS_GAMETEXTURE_H
 #define ZOMBIE_VS_HUMANS_GAMETEXTURE_H
 
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/Network.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Audio.hpp>
-#include <iostream>
-#include <stack>
-#include <vector>
-#include <iostream>
-#include <fstream>
-#include <cassert>
-#include <functional>
-#include <string>
-#include <boost/filesystem.hpp>
-
 /**
 	Factory class GameTexture
  	functions include getting ALL textures that are currently used in game

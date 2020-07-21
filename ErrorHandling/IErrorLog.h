@@ -5,9 +5,6 @@
 #ifndef BALLS_IERRORLOG_H
 #define BALLS_IERRORLOG_H
 
-#include <string>
-#include <fstream>
-
 class IErrorLog
 {
 public:

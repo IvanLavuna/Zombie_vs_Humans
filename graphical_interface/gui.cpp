@@ -1,7 +1,7 @@
 //
 // Created by ivan on 13.07.20.
 //
-
+#include "pch.h"
 #include "gui.h"
 
 //// class	Button --------------------------------------------------

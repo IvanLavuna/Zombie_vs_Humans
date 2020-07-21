@@ -51,6 +51,7 @@
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Components"/>
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Animation"/>
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Headers"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -81,6 +82,7 @@
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Components"/>
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Animation"/>
 					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities"/>
+					<Add directory="/home/ivan/CLionProjects/Zombie_vs_Humans/Headers"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -134,6 +136,9 @@
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.h">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Headers/pch.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
@@ -165,6 +170,12 @@
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/States/State.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.cxx">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface/gui.cpp">

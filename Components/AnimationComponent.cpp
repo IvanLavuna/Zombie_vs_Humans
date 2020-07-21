@@ -1,7 +1,7 @@
 //
 // Created by ivan on 17.07.20.
 //
-
+#include "pch.h"
 #include "AnimationComponent.h"
 
 

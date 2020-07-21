@@ -447,6 +447,21 @@ States/State.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.s
 .PHONY : States/State.cpp.s
 
+# target to build an object file
+cmake_pch.hxx.gch:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
+
+# target to preprocess a source file
+cmake_pch.hxx.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
+
+# target to generate assembly for a file
+cmake_pch.hxx.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
 graphical_interface/gui.o: graphical_interface/gui.cpp.o
 
 .PHONY : graphical_interface/gui.o
@@ -519,6 +534,9 @@ help:
 	@echo "... States/State.o"
 	@echo "... States/State.i"
 	@echo "... States/State.s"
+	@echo "... cmake_pch.hxx.gch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
 	@echo "... graphical_interface/gui.o"
 	@echo "... graphical_interface/gui.i"
 	@echo "... graphical_interface/gui.s"
