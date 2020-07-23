@@ -5,15 +5,6 @@
 #ifndef ZOMBIE_VS_HUMANS_ANIMATIONCOMPONENT_H
 #define ZOMBIE_VS_HUMANS_ANIMATIONCOMPONENT_H
 
-/**
- * All classes that have some animation will have this as a member of class.
- * It's basically the main animation, but ,for instance, class "FireBall" will
- * control this animation
- *
- * position of animation is top left corner
- *
- * THIS class is totally uncompleted
- * **/
 
 
 /** levels of rendering
@@ -21,6 +12,8 @@
  * ONE - this level renders second
  * THIRD - this level renders third **/
 enum class PRIORITY{ZERO = 0, ONE, TWO};
+
+
 
 class AnimationComponent
 {
@@ -32,12 +25,16 @@ private:
 	public:
 		/// variables
 		sf::Sprite&    _sprite;
-		sf::Texture&   _textureSheet;
+		sf::Texture&   _textureSheet; /** textureSheet should be only horizontal **/
 		unsigned	   _numberOfFrames;
 		unsigned 	   _curFrame;
 		PRIORITY	   _priority;
 		float 		   _timer;
 		float   	   _frSpeed; /** speed of changing frames **/
+		float 		   _frPosX;
+		float 		   _frPosY;
+		float 		   _frWidth;
+		float 		   _frHeight;
 
 	private:
 		void resetTimer(float newTime = 0)
@@ -51,14 +48,19 @@ private:
 
 	public:
 		/// constructor / destructor
-		Animation(sf::Texture* textureSheet, sf::Sprite* sprite, unsigned numberOfFrames = 15, PRIORITY priority = PRIORITY::TWO, float speed = 100.f):
-		    _sprite(*sprite),
+		Animation(sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
+				unsigned numberOfFrames, PRIORITY priority = PRIORITY::TWO, float speed = 100.f):
 			_textureSheet(*textureSheet),
+			_sprite(*sprite),
 			_numberOfFrames(numberOfFrames),
 			_curFrame(0),
 			_priority(priority),
 			_timer(0),
-			_frSpeed(speed)
+			_frSpeed(speed),
+			_frPosX(frPosX),
+			_frPosY(frPosY),
+			_frWidth(frWidth),
+			_frHeight(frHeight)
 			{
 				_sprite.setTexture(_textureSheet);
 			}
@@ -76,12 +78,12 @@ private:
 				if(_curFrame == _numberOfFrames)
 				{
 					_curFrame = 0;
-					_sprite.setTextureRect(sf::IntRect (0, 0, _sprite.getTextureRect().width, _sprite.getTextureRect().height));
+					_sprite.setTextureRect(sf::IntRect (_frPosX, _frPosY, _frWidth, _frHeight));
 				}
 				else
 				{
-					float rectLeftPos = static_cast<float>(_curFrame) * _sprite.getTextureRect().width;
-					_sprite.setTextureRect(sf::IntRect(rectLeftPos,0, _sprite.getTextureRect().width, _sprite.getTextureRect().height));
+					float rectLeftPos = static_cast<float>(_curFrame) * _frWidth;
+					_sprite.setTextureRect(sf::IntRect(rectLeftPos, _frPosY, _frWidth, _frHeight));
 				}
 			}
 		}
@@ -105,7 +107,8 @@ public:
 	void play(const float& dt);
 	void render(sf::RenderWindow* window);
 
-	void addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, unsigned numberOfFrames = 15, PRIORITY priority = PRIORITY::TWO, float speed = 100.f);
+	void addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
+					  unsigned numberOfFrames, PRIORITY priority = PRIORITY::TWO, float speed = 100.f);
 	bool removeAnimation(std::string animName);
 
 };

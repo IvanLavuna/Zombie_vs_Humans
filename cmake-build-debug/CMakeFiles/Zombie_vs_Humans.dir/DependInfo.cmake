@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/FatHuman.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/FileErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"

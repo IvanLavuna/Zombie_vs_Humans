@@ -8,17 +8,7 @@
 #include "AnimationComponent.h"
 #include "MovementComponent.h"
 #include "GameTexture.h"
-/**
- *
- *
- * THINK ABOUT.....
- *
- *
- *
- *
- *
- *
- */
+
 class Entity
 {
 private:
@@ -28,20 +18,26 @@ private:
 
 protected:
 	/// variables
-	std::map<std::string,sf::Sprite*> _sprites;
-	GameTexture* 		 			  _gameTextures;
+	sf::Sprite			 _sprite;
+	GameTexture* 		 _gameTextures;
 
-	AnimationComponent*  			  _animComponent;
-	MovementComponent*   			  _movementComponent;
+	/// components
+	AnimationComponent*  _animComponent;
+	MovementComponent*   _movementComponent;
 
+	/// components creation
+	void createAnimationComponent();
+	void createMovementComponent(float speed = 10.f);
+
+	/// animation features
+	void addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
+					  unsigned numberOfFrames, PRIORITY priority = PRIORITY::TWO, float speed = 100.f);
+	bool removeAnimation(std::string animName);
 public:
 	/// constructor / destructor
 	Entity();
-	virtual ~Entity();
+	~Entity();
 
-	/// initialisation of components
-	void initAnimComponent();
-	void initMovementComponent();
 };
 
 

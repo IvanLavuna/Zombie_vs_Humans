@@ -3,3 +3,17 @@
 //
 #include "pch.h"
 #include "Human.h"
+
+
+/// constructor / destructor
+Human::Human()
+{
+
+}
+
+Human::~Human()
+{
+
+}
+
+

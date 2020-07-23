@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o"
+  "CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"
   "CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"

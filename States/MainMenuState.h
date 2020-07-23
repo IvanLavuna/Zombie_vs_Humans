@@ -9,15 +9,14 @@
 #include "FileErrorLog.h"
 #include "AnimationComponent.h"
 #include "State.h"
-
+#include "GameState.h"
 class MainMenuState : public State
 {
 private:
 	/// variables
-	std::vector<gui::Button*> _buttons;
-
-	sf::Text 				  _nameOfTheGame;
-	sf::Font 			      _font;
+	std::map<std::string,gui::Button*> _buttons;
+	sf::Text 				  		   _nameOfTheGame;
+	sf::Font 			      		   _font;
 
 	/// initialisation
 	void initButtons();

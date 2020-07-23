@@ -36,3 +36,5 @@ CXX_INCLUDES = -I/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling -I/home
 
 # PCH options: CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
+# PCH options: CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+

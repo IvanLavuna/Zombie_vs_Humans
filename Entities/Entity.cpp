@@ -7,7 +7,6 @@
 /// initialisation
 void Entity::initVariables()
 {
-	initGameTextures();
 	_animComponent = nullptr;
 	_movementComponent = nullptr;
 }
@@ -15,29 +14,43 @@ void Entity::initVariables()
 void Entity::initGameTextures()
 {
 	_gameTextures = new GameTexture("Resource/Textures/");
+	_gameTextures->loadGameTextures();
 }
-
 
 /// constructor / destructor
 Entity::Entity()
 {
 	initVariables();
+	initGameTextures();
 }
 
 Entity::~Entity()
 {
-
+	delete _gameTextures;
+	delete _animComponent;
+	delete _movementComponent;
 }
 
-/// initialisation of components
-void Entity::initAnimComponent()
+/// components functions
+void Entity::createAnimationComponent()
 {
-
+	_animComponent = new AnimationComponent();
 }
 
-void Entity::initMovementComponent()
+void Entity::createMovementComponent(float speed)
 {
+	_movementComponent = new MovementComponent(&_sprite,speed);
+}
 
+void Entity::addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
+						  unsigned numberOfFrames, PRIORITY priority, float speed)
+{
+	_animComponent->addAnimation(std::move(animName),textureSheet,sprite,frPosX,frPosY,frWidth,frHeight,numberOfFrames,priority,speed);
+}
+
+bool Entity::removeAnimation(std::string animName)
+{
+	return _animComponent->removeAnimation(std::move(animName));
 }
 
 

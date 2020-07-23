@@ -8,7 +8,7 @@
 
 #include "MainMenuState.h"
 #include "FileErrorLog.h"
-
+#include "GameState.h"
 
 
 class Game

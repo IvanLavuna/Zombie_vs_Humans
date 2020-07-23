@@ -9,7 +9,7 @@ set(SOURCE Source/main.cpp Source/Game.h Source/Game.cpp ErrorHandling/IErrorLog
         graphical_interface/gui.h States/State.cpp States/State.h States/GameState.cpp
         States/GameState.h Source/GameTexture.cpp Source/GameTexture.h Components/AnimationComponent.cpp
         Components/AnimationComponent.h Entities/Entity.cpp Entities/Entity.h Entities/Human.cpp
-        Entities/Human.h Components/MovementComponent.cpp Components/MovementComponent.h Headers/pch.h)
+        Entities/Human.h Components/MovementComponent.cpp Components/MovementComponent.h Headers/pch.h Entities/FatHuman.cpp Entities/FatHuman.h)
 
 include_directories(ErrorHandling States graphical_interface States
             Source Components Animation Entities Headers)

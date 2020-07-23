@@ -6,9 +6,29 @@
 #define ZOMBIE_VS_HUMANS_HUMAN_H
 
 #include "Entity.h"
+
+/** This class should configure all
+ *  humans i.e zombie do not need camera **/
+
 class Human : public Entity
 {
 
+
+public:
+	/// constructor / destructor
+	Human();
+    ~Human();
+
+
+    /// functions that define human possibilities
+    virtual void moveRight() = 0;
+    virtual void moveLeft() = 0;
+    virtual void moveDown() = 0;
+    virtual void moveUp() = 0;
+
+    virtual void render(sf::RenderWindow* window) = 0;
+    virtual void update(const float& dt) = 0;
+	virtual void updateInput(const float& dt) = 0;
 };
 
 

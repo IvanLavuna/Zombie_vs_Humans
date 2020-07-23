@@ -4,6 +4,8 @@
 CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o: ../Components/AnimationComponent.cpp
 CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Components/AnimationComponent.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.o: ../Components/MovementComponent.cpp
@@ -15,6 +17,19 @@ CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: ../Entities/Entity.cpp
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Components/MovementComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/FatHuman.cpp
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/FatHuman.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/Human.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Components/AnimationComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Components/MovementComponent.h
@@ -23,6 +38,8 @@ CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Entity.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Human.cpp
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Human.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o: ../ErrorHandling/FileErrorLog.cpp
@@ -34,10 +51,15 @@ CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o: ../ErrorHandling/
 CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o: ../ErrorHandling/IErrorLog.h
 
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Components/MovementComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Entities/FatHuman.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../States/MainMenuState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../States/State.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../graphical_interface/gui.h
@@ -47,14 +69,21 @@ CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Source/Game.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o: ../Source/GameTexture.cpp
 CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Components/MovementComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Entities/FatHuman.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../States/MainMenuState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../States/State.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../graphical_interface/gui.h
@@ -63,26 +92,42 @@ CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Source/Game.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Source/main.cpp
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Components/MovementComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/FatHuman.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../States/GameState.cpp
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../States/State.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Components/AnimationComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Components/MovementComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Entities/Entity.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Entities/FatHuman.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../graphical_interface/gui.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../States/MainMenuState.cpp
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../States/MainMenuState.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../States/State.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: ../Source/GameTexture.h
+CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: ../States/State.cpp
 CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: ../States/State.h
+CMakeFiles/Zombie_vs_Humans.dir/States/State.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
 CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx

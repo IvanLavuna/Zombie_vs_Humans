@@ -118,6 +118,12 @@
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Entity.h">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/FatHuman.cpp">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
+		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/FatHuman.h">
+			<Option target="Zombie_vs_Humans"/>
+		</Unit>
 		<Unit filename="/home/ivan/CLionProjects/Zombie_vs_Humans/Entities/Human.cpp">
 			<Option target="Zombie_vs_Humans"/>
 		</Unit>

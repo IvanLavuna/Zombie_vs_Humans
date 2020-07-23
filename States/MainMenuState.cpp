@@ -12,22 +12,18 @@ void MainMenuState::initButtons()
 	unsigned w = _window->getSize().x, h = _window->getSize().y;
 	float const_w = static_cast<float>(w)/20.f,const_h = static_cast<float>(h)/9.f;
 
-	auto* new_btn1 = new gui::Button(const_w * 1.5f,const_h * 2.7f,const_w*6,const_h/1.25f,"play",
+	_buttons["play"] = new gui::Button(const_w * 1.5f,const_h * 2.7f,const_w*6,const_h/1.25f,"play",
 			sf::Color(162,211,216),sf::Color(82,132,138),sf::Color(33,85,91));
 
-	auto* new_btn2 = new gui::Button(const_w*1.5f,const_h * 4.4f,const_w*6,const_h/1.25f,"settings",
+	_buttons["settings"] =  new gui::Button(const_w*1.5f,const_h * 4.4f,const_w*6,const_h/1.25f,"settings",
 									 sf::Color(162,211,216),sf::Color(82,132,138),sf::Color(33,85,91));
 
-	auto* new_btn3 = new gui::Button(const_w*1.5f,const_h * 6.1f,const_w*6,const_h/1.25f,"how to play",
+	_buttons["how_to_play"] =  new gui::Button(const_w*1.5f,const_h * 6.1f,const_w*6,const_h/1.25f,"how to play",
 									 sf::Color(162,211,216),sf::Color(82,132,138),sf::Color(33,85,91));
 
-	auto* new_btn4 = new gui::Button(const_w*1.5f,const_h * 7.8f,const_w*6,const_h/1.25f,"exit",
+	_buttons["exit"] =  new gui::Button(const_w*1.5f,const_h * 7.8f,const_w*6,const_h/1.25f,"exit",
 									 sf::Color(162,211,216),sf::Color(82,132,138),sf::Color(33,85,91));
 
-	_buttons.push_back(new_btn1);
-	_buttons.push_back(new_btn2);
-	_buttons.push_back(new_btn3);
-	_buttons.push_back(new_btn4);
 }
 
 void MainMenuState::initNameOfTheGame()
@@ -73,17 +69,36 @@ void MainMenuState::endState()
 void MainMenuState::update(const float &dt)
 {
 	this->updateButtons(dt);
+	this->updateInput(dt);
 }
 
 void MainMenuState::updateInput(const float &dt)
 {
-
+	/// new game
+	if(_buttons["play"]->isPressed(_mousePosView))
+	{
+		_states->push(new GameState(_window,_states));
+	}
+	/// settings
+	if(_buttons["settings"]->isPressed(_mousePosView))
+	{
+		/// do setting stuff
+	}
+	if(_buttons["how_to_play"]->isPressed(_mousePosView))
+	{
+		/// do how_to_play stuff
+	}
+	/// exit
+	if(_buttons["exit"]->isPressed(_mousePosView))
+	{
+		_window->close();
+	}
 }
 
 void MainMenuState::updateButtons(const float &dt)
 {
 	for(auto item: _buttons)
-		item->update(_mousePosView);
+		item.second->update(_mousePosView);
 }
 
 /// render
@@ -96,7 +111,7 @@ void MainMenuState::render()
 void MainMenuState::renderButtons()
 {
 	for(auto item: _buttons)
-		item->render(_window);
+		item.second->render(_window);
 }
 
 void MainMenuState::renderNameOfTheGame()

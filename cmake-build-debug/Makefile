@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/121/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -203,6 +203,33 @@ Entities/Entity.s: Entities/Entity.cpp.s
 Entities/Entity.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.s
 .PHONY : Entities/Entity.cpp.s
+
+Entities/FatHuman.o: Entities/FatHuman.cpp.o
+
+.PHONY : Entities/FatHuman.o
+
+# target to build an object file
+Entities/FatHuman.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o
+.PHONY : Entities/FatHuman.cpp.o
+
+Entities/FatHuman.i: Entities/FatHuman.cpp.i
+
+.PHONY : Entities/FatHuman.i
+
+# target to preprocess a source file
+Entities/FatHuman.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.i
+.PHONY : Entities/FatHuman.cpp.i
+
+Entities/FatHuman.s: Entities/FatHuman.cpp.s
+
+.PHONY : Entities/FatHuman.s
+
+# target to generate assembly for a file
+Entities/FatHuman.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.s
+.PHONY : Entities/FatHuman.cpp.s
 
 Entities/Human.o: Entities/Human.cpp.o
 
@@ -507,6 +534,9 @@ help:
 	@echo "... Entities/Entity.o"
 	@echo "... Entities/Entity.i"
 	@echo "... Entities/Entity.s"
+	@echo "... Entities/FatHuman.o"
+	@echo "... Entities/FatHuman.i"
+	@echo "... Entities/FatHuman.s"
 	@echo "... Entities/Human.o"
 	@echo "... Entities/Human.i"
 	@echo "... Entities/Human.s"

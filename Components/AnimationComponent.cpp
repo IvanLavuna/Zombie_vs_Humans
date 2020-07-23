@@ -43,10 +43,12 @@ void AnimationComponent::render(sf::RenderWindow *window)
 	}
 }
 
-void AnimationComponent::addAnimation(std::string animName, sf::Texture *textureSheet, sf::Sprite *sprite, unsigned numberOfFrames, PRIORITY priority, float speed)
+void AnimationComponent::addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
+									  unsigned numberOfFrames, PRIORITY priority, float speed)
 {
-	auto* newAnim = new Animation(textureSheet,sprite,numberOfFrames,priority,speed);
+	auto* newAnim = new Animation(textureSheet,sprite,frPosX,frPosY,frWidth,frHeight,numberOfFrames,priority,speed);
 	_animations[animName] = newAnim;
+
 }
 
 bool AnimationComponent::removeAnimation(std::string animName)
