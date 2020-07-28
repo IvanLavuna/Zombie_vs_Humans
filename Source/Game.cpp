@@ -76,8 +76,6 @@ void Game::updateSFMLEvents()
 			case sf::Event::Closed:
 				_window->close();
 				break;
-
-				break;
 			default:
 				break;
 		}

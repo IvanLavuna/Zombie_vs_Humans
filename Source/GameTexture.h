@@ -34,6 +34,7 @@ public:
 	/// get texture
 	sf::Texture* getRobotTexture();
 	sf::Texture* getFatHumanTexture();
+	sf::Texture* getTestingTexture();
 };
 
 

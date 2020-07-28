@@ -74,12 +74,12 @@ clean: CMakeFiles/Zombie_vs_Humans.dir/clean
 CMakeFiles/Zombie_vs_Humans.dir/all:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/depend
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target Zombie_vs_Humans"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Zombie_vs_Humans"
 .PHONY : CMakeFiles/Zombie_vs_Humans.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Zombie_vs_Humans.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Zombie_vs_Humans.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Zombie_vs_Humans.dir/rule

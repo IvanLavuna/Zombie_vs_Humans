@@ -61,3 +61,8 @@ bool AnimationComponent::removeAnimation(std::string animName)
 	return false;
 }
 
+void AnimationComponent::resetAnimationTextureCoo(std::string animName,float frPosX, float frPosY, float frWidth, float frHeight)
+{
+	_animations[animName]->resetTextureSheetCoo(frPosX,frPosY,frWidth,frHeight);
+}
+

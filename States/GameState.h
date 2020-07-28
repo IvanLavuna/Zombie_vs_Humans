@@ -14,10 +14,12 @@ private:
 	/// variables
 
 	FatHuman* 	_fatHuman;
+	sf::Sprite  _sprite;
+	sf::Texture _texture;
 
 	/// initialisation
 	void initFatHuman();
-
+	void initMap();
 public:
 	/// constructor/destructor
 	GameState(sf::RenderWindow* window, std::stack<State*>* states);

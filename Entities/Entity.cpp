@@ -7,8 +7,9 @@
 /// initialisation
 void Entity::initVariables()
 {
-	_animComponent = nullptr;
+	_animComponent     = nullptr;
 	_movementComponent = nullptr;
+	_viewComponent 	   = nullptr;
 }
 
 void Entity::initGameTextures()
@@ -29,6 +30,7 @@ Entity::~Entity()
 	delete _gameTextures;
 	delete _animComponent;
 	delete _movementComponent;
+	delete _viewComponent;
 }
 
 /// components functions
@@ -42,6 +44,12 @@ void Entity::createMovementComponent(float speed)
 	_movementComponent = new MovementComponent(&_sprite,speed);
 }
 
+void Entity::createViewComponent(sf::Sprite &sprite, float width, float height)
+{
+	_viewComponent = new ViewComponent(sprite,width,height);
+}
+
+
 void Entity::addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
 						  unsigned numberOfFrames, PRIORITY priority, float speed)
 {
@@ -52,6 +60,7 @@ bool Entity::removeAnimation(std::string animName)
 {
 	return _animComponent->removeAnimation(std::move(animName));
 }
+
 
 
 

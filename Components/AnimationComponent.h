@@ -18,8 +18,8 @@ enum class PRIORITY{ZERO = 0, ONE, TWO};
 class AnimationComponent
 {
 private:
-	/** this class handles one specific animation
-	 *  We also identify animation by special name **/
+	/** this class handles one specific animation.
+	 *  We also identify animation by special name. **/
 	class Animation
 	{
 	public:
@@ -61,9 +61,7 @@ private:
 			_frPosY(frPosY),
 			_frWidth(frWidth),
 			_frHeight(frHeight)
-			{
-				_sprite.setTexture(_textureSheet);
-			}
+			{}
 		~Animation() = default;
 
 		/** play means changing frames **/
@@ -92,6 +90,14 @@ private:
 		{
 			window->draw(_sprite);
 		}
+
+		void resetTextureSheetCoo(float frPosX,float frPosY,float frWidth,float frHeight)
+		{
+			_frPosX = frPosX;
+			_frPosY = frPosY;
+			_frWidth = frWidth;
+			_frHeight = frHeight;
+		}
 	};
 
 private:
@@ -99,7 +105,6 @@ private:
 	std::map<std::string, Animation*> _animations;
 
 public:
-	/** by default number of frames are 15 **/
 	explicit AnimationComponent();
 	~AnimationComponent();
 
@@ -110,7 +115,7 @@ public:
 	void addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,
 					  unsigned numberOfFrames, PRIORITY priority = PRIORITY::TWO, float speed = 100.f);
 	bool removeAnimation(std::string animName);
-
+	void resetAnimationTextureCoo(std::string animName,float frPosX,float frPosY,float frWidth,float frHeight);
 };
 
 

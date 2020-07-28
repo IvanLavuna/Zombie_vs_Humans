@@ -12,19 +12,18 @@
 
 class Human : public Entity
 {
+protected:
 
+	/// functions that defines human possibilities
+	virtual void moveRight() = 0;
+	virtual void moveLeft() = 0;
+	virtual void moveDown() = 0;
+	virtual void moveUp() = 0;
 
 public:
 	/// constructor / destructor
 	Human();
     ~Human();
-
-
-    /// functions that define human possibilities
-    virtual void moveRight() = 0;
-    virtual void moveLeft() = 0;
-    virtual void moveDown() = 0;
-    virtual void moveUp() = 0;
 
     virtual void render(sf::RenderWindow* window) = 0;
     virtual void update(const float& dt) = 0;

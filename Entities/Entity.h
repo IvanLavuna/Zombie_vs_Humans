@@ -7,6 +7,7 @@
 
 #include "AnimationComponent.h"
 #include "MovementComponent.h"
+#include "ViewComponent.h"
 #include "GameTexture.h"
 
 class Entity
@@ -24,10 +25,12 @@ protected:
 	/// components
 	AnimationComponent*  _animComponent;
 	MovementComponent*   _movementComponent;
+	ViewComponent*		 _viewComponent;
 
 	/// components creation
 	void createAnimationComponent();
 	void createMovementComponent(float speed = 10.f);
+	void createViewComponent(sf::Sprite& sprite, float width, float height);
 
 	/// animation features
 	void addAnimation(std::string animName, sf::Texture* textureSheet, sf::Sprite* sprite, float frPosX, float frPosY, float frWidth, float frHeight,

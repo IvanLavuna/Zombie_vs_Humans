@@ -177,6 +177,33 @@ Components/MovementComponent.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/MovementComponent.cpp.s
 .PHONY : Components/MovementComponent.cpp.s
 
+Components/ViewComponent.o: Components/ViewComponent.cpp.o
+
+.PHONY : Components/ViewComponent.o
+
+# target to build an object file
+Components/ViewComponent.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/ViewComponent.cpp.o
+.PHONY : Components/ViewComponent.cpp.o
+
+Components/ViewComponent.i: Components/ViewComponent.cpp.i
+
+.PHONY : Components/ViewComponent.i
+
+# target to preprocess a source file
+Components/ViewComponent.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/ViewComponent.cpp.i
+.PHONY : Components/ViewComponent.cpp.i
+
+Components/ViewComponent.s: Components/ViewComponent.cpp.s
+
+.PHONY : Components/ViewComponent.s
+
+# target to generate assembly for a file
+Components/ViewComponent.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Components/ViewComponent.cpp.s
+.PHONY : Components/ViewComponent.cpp.s
+
 Entities/Entity.o: Entities/Entity.cpp.o
 
 .PHONY : Entities/Entity.o
@@ -366,6 +393,33 @@ Source/GameTexture.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.s
 .PHONY : Source/GameTexture.cpp.s
 
+Source/Map.o: Source/Map.cpp.o
+
+.PHONY : Source/Map.o
+
+# target to build an object file
+Source/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.o
+.PHONY : Source/Map.cpp.o
+
+Source/Map.i: Source/Map.cpp.i
+
+.PHONY : Source/Map.i
+
+# target to preprocess a source file
+Source/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.i
+.PHONY : Source/Map.cpp.i
+
+Source/Map.s: Source/Map.cpp.s
+
+.PHONY : Source/Map.s
+
+# target to generate assembly for a file
+Source/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.s
+.PHONY : Source/Map.cpp.s
+
 Source/main.o: Source/main.cpp.o
 
 .PHONY : Source/main.o
@@ -531,6 +585,9 @@ help:
 	@echo "... Components/MovementComponent.o"
 	@echo "... Components/MovementComponent.i"
 	@echo "... Components/MovementComponent.s"
+	@echo "... Components/ViewComponent.o"
+	@echo "... Components/ViewComponent.i"
+	@echo "... Components/ViewComponent.s"
 	@echo "... Entities/Entity.o"
 	@echo "... Entities/Entity.i"
 	@echo "... Entities/Entity.s"
@@ -552,6 +609,9 @@ help:
 	@echo "... Source/GameTexture.o"
 	@echo "... Source/GameTexture.i"
 	@echo "... Source/GameTexture.s"
+	@echo "... Source/Map.o"
+	@echo "... Source/Map.i"
+	@echo "... Source/Map.s"
 	@echo "... Source/main.o"
 	@echo "... Source/main.i"
 	@echo "... Source/main.s"

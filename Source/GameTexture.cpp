@@ -41,4 +41,12 @@ sf::Texture *GameTexture::getFatHumanTexture()
 {
 	if(_textures.find("fat_human_anim.png") != _textures.end())
 		return _textures["fat_human_anim.png"];
-	return nullptr;}
+	return nullptr;
+}
+
+sf::Texture *GameTexture::getTestingTexture()
+{
+	if(_textures.find("testing_anim.png") != _textures.end())
+		return _textures["testing_anim.png"];
+	return nullptr;
+}
