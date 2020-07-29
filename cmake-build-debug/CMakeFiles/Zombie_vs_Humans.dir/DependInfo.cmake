@@ -20,12 +20,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/FileErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling/IErrorLog.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/Maps/Map.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/Maps/SummerMap.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o"
+  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Game.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/GameTexture.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.o"
-  "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/Map.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.o"
-  "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/Source/main.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o"
   "/home/ivan/CLionProjects/Zombie_vs_Humans/States/GameState.cpp" "/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o"
@@ -51,6 +53,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Animation"
   "../Entities"
   "../Headers"
+  "../Maps"
   )
 
 # Targets to which this target links.

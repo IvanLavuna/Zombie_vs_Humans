@@ -339,6 +339,60 @@ ErrorHandling/IErrorLog.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.s
 .PHONY : ErrorHandling/IErrorLog.cpp.s
 
+Maps/Map.o: Maps/Map.cpp.o
+
+.PHONY : Maps/Map.o
+
+# target to build an object file
+Maps/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o
+.PHONY : Maps/Map.cpp.o
+
+Maps/Map.i: Maps/Map.cpp.i
+
+.PHONY : Maps/Map.i
+
+# target to preprocess a source file
+Maps/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.i
+.PHONY : Maps/Map.cpp.i
+
+Maps/Map.s: Maps/Map.cpp.s
+
+.PHONY : Maps/Map.s
+
+# target to generate assembly for a file
+Maps/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.s
+.PHONY : Maps/Map.cpp.s
+
+Maps/SummerMap.o: Maps/SummerMap.cpp.o
+
+.PHONY : Maps/SummerMap.o
+
+# target to build an object file
+Maps/SummerMap.cpp.o:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o
+.PHONY : Maps/SummerMap.cpp.o
+
+Maps/SummerMap.i: Maps/SummerMap.cpp.i
+
+.PHONY : Maps/SummerMap.i
+
+# target to preprocess a source file
+Maps/SummerMap.cpp.i:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.i
+.PHONY : Maps/SummerMap.cpp.i
+
+Maps/SummerMap.s: Maps/SummerMap.cpp.s
+
+.PHONY : Maps/SummerMap.s
+
+# target to generate assembly for a file
+Maps/SummerMap.cpp.s:
+	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.s
+.PHONY : Maps/SummerMap.cpp.s
+
 Source/Game.o: Source/Game.cpp.o
 
 .PHONY : Source/Game.o
@@ -392,33 +446,6 @@ Source/GameTexture.s: Source/GameTexture.cpp.s
 Source/GameTexture.cpp.s:
 	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/GameTexture.cpp.s
 .PHONY : Source/GameTexture.cpp.s
-
-Source/Map.o: Source/Map.cpp.o
-
-.PHONY : Source/Map.o
-
-# target to build an object file
-Source/Map.cpp.o:
-	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.o
-.PHONY : Source/Map.cpp.o
-
-Source/Map.i: Source/Map.cpp.i
-
-.PHONY : Source/Map.i
-
-# target to preprocess a source file
-Source/Map.cpp.i:
-	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.i
-.PHONY : Source/Map.cpp.i
-
-Source/Map.s: Source/Map.cpp.s
-
-.PHONY : Source/Map.s
-
-# target to generate assembly for a file
-Source/Map.cpp.s:
-	$(MAKE) -f CMakeFiles/Zombie_vs_Humans.dir/build.make CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.s
-.PHONY : Source/Map.cpp.s
 
 Source/main.o: Source/main.cpp.o
 
@@ -603,15 +630,18 @@ help:
 	@echo "... ErrorHandling/IErrorLog.o"
 	@echo "... ErrorHandling/IErrorLog.i"
 	@echo "... ErrorHandling/IErrorLog.s"
+	@echo "... Maps/Map.o"
+	@echo "... Maps/Map.i"
+	@echo "... Maps/Map.s"
+	@echo "... Maps/SummerMap.o"
+	@echo "... Maps/SummerMap.i"
+	@echo "... Maps/SummerMap.s"
 	@echo "... Source/Game.o"
 	@echo "... Source/Game.i"
 	@echo "... Source/Game.s"
 	@echo "... Source/GameTexture.o"
 	@echo "... Source/GameTexture.i"
 	@echo "... Source/GameTexture.s"
-	@echo "... Source/Map.o"
-	@echo "... Source/Map.i"
-	@echo "... Source/Map.s"
 	@echo "... Source/main.o"
 	@echo "... Source/main.i"
 	@echo "... Source/main.s"

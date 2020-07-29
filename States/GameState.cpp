@@ -10,26 +10,23 @@ void GameState::initFatHuman()
 	_fatHuman = new FatHuman();
 }
 
-void GameState::initMap()
+void GameState::initSummerMap()
 {
-	_texture.loadFromFile("Resource/map/map.png");
-	_sprite.setTexture(_texture);
-	_sprite.setPosition(0,0);
+	_summerMap = new SummerMap();
 }
-
-
 
 /// constructor/destructor
 GameState::GameState(sf::RenderWindow* window, std::stack<State*>* states):
 State(window, states)
 {
 	initFatHuman();
-	initMap();
+	initSummerMap();
 }
 
 GameState::~GameState()
 {
 	delete _fatHuman;
+	delete _summerMap;
 }
 
 /// functions
@@ -44,23 +41,39 @@ void GameState::update(const float &dt)
 	updateFatHuman(dt);
 	updateInput(dt);
 }
+
 void GameState::updateFatHuman(const float &dt)
 {
 	_fatHuman->update(dt);
 }
 
-
+/// update Input
 void GameState::updateInput(const float &dt)
 {
-	_fatHuman->updateInput(dt);
+	updateFatHumanInput(dt);
 }
 
+void GameState::updateFatHumanInput(const float &dt)
+{
+	_fatHuman->updateInput(dt,*_summerMap);
+}
 
 /// render
 void GameState::render()
 {
-	_window->draw(_sprite);
+	renderSummerMap();
+	renderFatHuman();
+}
+
+void GameState::renderFatHuman()
+{
 	_fatHuman->render(_window);
 }
+
+void GameState::renderSummerMap()
+{
+	_summerMap->render(_window);
+}
+
 
 

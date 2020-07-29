@@ -30,7 +30,11 @@ CMakeFiles/Zombie_vs_Humans.dir/Entities/Entity.cpp.o: CMakeFiles/Zombie_vs_Huma
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Components/AnimationComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Components/MovementComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Components/ViewComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../ErrorHandling/FileErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/Entity.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: ../Entities/FatHuman.cpp
@@ -42,7 +46,11 @@ CMakeFiles/Zombie_vs_Humans.dir/Entities/FatHuman.cpp.o: CMakeFiles/Zombie_vs_Hu
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Components/AnimationComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Components/MovementComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Components/ViewComponent.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../ErrorHandling/FileErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Entity.h
 CMakeFiles/Zombie_vs_Humans.dir/Entities/Human.cpp.o: ../Entities/Human.cpp
@@ -59,6 +67,23 @@ CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o: ../ErrorHandling/IErrorLog.cpp
 CMakeFiles/Zombie_vs_Humans.dir/ErrorHandling/IErrorLog.cpp.o: ../ErrorHandling/IErrorLog.h
 
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../ErrorHandling/FileErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../ErrorHandling/IErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../Maps/Map.cpp
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../ErrorHandling/FileErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../ErrorHandling/IErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../Maps/SummerMap.cpp
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: ../Maps/SummerMap.h
+CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Components/AnimationComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Components/MovementComponent.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Components/ViewComponent.h
@@ -68,6 +93,8 @@ CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/Game.cpp.o: ../States/MainMenuState.h
@@ -93,6 +120,8 @@ CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../States/GameState.h
 CMakeFiles/Zombie_vs_Humans.dir/Source/main.cpp.o: ../States/MainMenuState.h
@@ -109,7 +138,11 @@ CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Components/ViewCompon
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/Entity.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/FatHuman.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Entities/Human.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../ErrorHandling/FileErrorLog.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../Headers/pch.h
 CMakeFiles/Zombie_vs_Humans.dir/States/GameState.cpp.o: ../States/GameState.cpp
@@ -126,6 +159,8 @@ CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Entities/Human.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../ErrorHandling/FileErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../ErrorHandling/IErrorLog.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Headers/pch.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Maps/Map.h
+CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Maps/SummerMap.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Source/GameTexture.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../graphical_interface/gui.h
 CMakeFiles/Zombie_vs_Humans.dir/States/MainMenuState.cpp.o: ../Headers/pch.h

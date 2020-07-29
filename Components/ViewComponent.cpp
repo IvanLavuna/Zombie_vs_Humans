@@ -15,11 +15,35 @@ ViewComponent::ViewComponent(sf::Sprite& sprite, float width, float height):
 ViewComponent::~ViewComponent()
 {}
 
-/// update
+/// render
 void ViewComponent::render(sf::RenderWindow *window)
 {
-	_view.setCenter((_sprite.getPosition().x + _sprite.getLocalBounds().width/2.f),
-					(_sprite.getPosition().y + _sprite.getLocalBounds().height/2.f));
+	/** remake all this later **/
+	float spr_posX = (_sprite.getPosition().x + _sprite.getGlobalBounds().width  / 2.f);
+	float spr_posY = (_sprite.getPosition().y + _sprite.getGlobalBounds().height / 2.f);
+
+	if ( (spr_posX - _view.getSize().x / 2 < 0                   &&  spr_posY - _view.getSize().y / 2 < 0) ||
+	     (spr_posX + _view.getSize().x / 2 > window->getSize().x &&  spr_posY + _view.getSize().y / 2 > window->getSize().y ) ||
+	     (spr_posX - _view.getSize().x / 2 < 0                   &&  spr_posY + _view.getSize().y / 2 > window->getSize().y ) ||
+	     (spr_posX + _view.getSize().x / 2 > window->getSize().x &&  spr_posY - _view.getSize().y / 2 < 0 ))
+	{
+		return;
+	}
+	else if (spr_posX - _view.getSize().x / 2 < 0 || spr_posX + _view.getSize().x / 2 > window->getSize().x)
+	{
+		_view.setCenter(_view.getCenter().x,
+						(_sprite.getPosition().y + _sprite.getGlobalBounds().height / 2.f));
+	}
+	else if (spr_posY - _view.getSize().y / 2 < 0 || spr_posY + _view.getSize().y / 2 > window->getSize().y)
+	{
+		_view.setCenter((_sprite.getPosition().x + _sprite.getGlobalBounds().width / 2.f),
+						_view.getCenter().y);
+	}
+	else
+	{
+		_view.setCenter((_sprite.getPosition().x + _sprite.getGlobalBounds().width / 2.f),
+						(_sprite.getPosition().y + _sprite.getGlobalBounds().height / 2.f));
+	}
 	window->setView(_view);
 
 }

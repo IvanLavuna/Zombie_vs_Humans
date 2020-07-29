@@ -6,7 +6,7 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling -I/home/ivan/CLionProjects/Zombie_vs_Humans/States -I/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface -I/home/ivan/CLionProjects/Zombie_vs_Humans/Source -I/home/ivan/CLionProjects/Zombie_vs_Humans/Components -I/home/ivan/CLionProjects/Zombie_vs_Humans/Animation -I/home/ivan/CLionProjects/Zombie_vs_Humans/Entities -I/home/ivan/CLionProjects/Zombie_vs_Humans/Headers 
+CXX_INCLUDES = -I/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling -I/home/ivan/CLionProjects/Zombie_vs_Humans/States -I/home/ivan/CLionProjects/Zombie_vs_Humans/graphical_interface -I/home/ivan/CLionProjects/Zombie_vs_Humans/Source -I/home/ivan/CLionProjects/Zombie_vs_Humans/Components -I/home/ivan/CLionProjects/Zombie_vs_Humans/Animation -I/home/ivan/CLionProjects/Zombie_vs_Humans/Entities -I/home/ivan/CLionProjects/Zombie_vs_Humans/Headers -I/home/ivan/CLionProjects/Zombie_vs_Humans/Maps 
 
 # PCH options: CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
@@ -40,5 +40,7 @@ CXX_INCLUDES = -I/home/ivan/CLionProjects/Zombie_vs_Humans/ErrorHandling -I/home
 
 # PCH options: CMakeFiles/Zombie_vs_Humans.dir/Components/ViewComponent.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 
-# PCH options: CMakeFiles/Zombie_vs_Humans.dir/Source/Map.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+# PCH options: CMakeFiles/Zombie_vs_Humans.dir/Maps/Map.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/Zombie_vs_Humans.dir/Maps/SummerMap.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/ivan/CLionProjects/Zombie_vs_Humans/cmake-build-debug/CMakeFiles/Zombie_vs_Humans.dir/cmake_pch.hxx
 

@@ -26,8 +26,8 @@
 #define FAT_HUMAN_ANIMATION_NAME		  "testing_anim"
 
 /** View config **/
-#define	FAT_HUMAN_VIEW_WIDTH 	300
-#define FAT_HUMAN_VIEW_HEIGHT   300
+#define	FAT_HUMAN_VIEW_WIDTH 	600.
+#define FAT_HUMAN_VIEW_HEIGHT   600.
 #endif //FAT_HUMAN_CONFIG
 
 
@@ -46,7 +46,7 @@ private:
 
 	/// mustInit
 	void initTexture();
-	void initSprite(sf::Vector2f pos = {0.f,0.f});
+	void initSprite(sf::Vector2f pos = {FAT_HUMAN_VIEW_WIDTH / 2.,FAT_HUMAN_VIEW_HEIGHT / 2.});
 	void initAnimationComponent();
 	void initMovementComponent(float speed = 100.f);
 	void initViewComponent(sf::Sprite& sprite, float width, float height);
@@ -54,9 +54,9 @@ private:
 protected:
 	/// possibilities of fatHuman
 	void moveRight() override;
-	void moveLeft() override;
-	void moveDown() override;
-	void moveUp() override;
+	void moveLeft()  override;
+	void moveDown()  override;
+	void moveUp()    override;
 
 	/// update
 
@@ -70,7 +70,7 @@ public:
 	/// core
 	void render(sf::RenderWindow* window) override;
 	void update(const float& dt) override;
-	void updateInput(const float& dt) override;
+	void updateInput(const float& dt, SummerMap& summerMap) override;
 
 };
 

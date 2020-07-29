@@ -6,6 +6,7 @@
 #define ZOMBIE_VS_HUMANS_HUMAN_H
 
 #include "Entity.h"
+#include "SummerMap.h"
 
 /** This class should configure all
  *  humans i.e zombie do not need camera **/
@@ -27,7 +28,7 @@ public:
 
     virtual void render(sf::RenderWindow* window) = 0;
     virtual void update(const float& dt) = 0;
-	virtual void updateInput(const float& dt) = 0;
+	virtual void updateInput(const float& dt,SummerMap& summerMap) = 0;
 };
 
 

@@ -7,6 +7,7 @@
 
 #include "State.h"
 #include "FatHuman.h"
+#include "SummerMap.h"
 
 class GameState : public State
 {
@@ -14,12 +15,12 @@ private:
 	/// variables
 
 	FatHuman* 	_fatHuman;
-	sf::Sprite  _sprite;
-	sf::Texture _texture;
+	SummerMap*  _summerMap;
 
 	/// initialisation
 	void initFatHuman();
-	void initMap();
+	void initSummerMap();
+
 public:
 	/// constructor/destructor
 	GameState(sf::RenderWindow* window, std::stack<State*>* states);
@@ -29,14 +30,17 @@ public:
 	void endState() override;
 
 	/// update
-	void updateInput(const float&dt) override;
 	void update(const float& dt) override;
 	void updateFatHuman(const float& dt);
 
+	/// update input
+	void updateInput(const float&dt) override;
+	void updateFatHumanInput(const float& dt);
+
 	/// render
 	void render() override;
-
-
+	void renderFatHuman();
+	void renderSummerMap();
 };
 
 

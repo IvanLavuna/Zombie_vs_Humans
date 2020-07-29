@@ -94,48 +94,60 @@ void FatHuman::update(const float &dt)
 }
 
 /// process moves
-void FatHuman::updateInput(const float &dt)
+void FatHuman::updateInput(const float &dt,SummerMap& summerMap)
 {
 	bool ST = false;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left))
 	{
-			_animComponent->resetAnimationTextureCoo(FAT_HUMAN_ANIMATION_NAME, FAT_HUMAN_MOVE_LEFT_POS_FRAME_X,
-													 FAT_HUMAN_MOVE_LEFT_POS_FRAME_Y,
-													 FAT_HUMAN_TEXTURE_FRAME_WIDTH, FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
-			moveLeft();
-			ST = true;
+		_animComponent->resetAnimationTextureCoo( FAT_HUMAN_ANIMATION_NAME,
+											      FAT_HUMAN_MOVE_LEFT_POS_FRAME_X,
+											      FAT_HUMAN_MOVE_LEFT_POS_FRAME_Y,
+											      FAT_HUMAN_TEXTURE_FRAME_WIDTH,
+											      FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
+		moveLeft();
+		ST = true;
 
 	}
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
 	{
-		_animComponent->resetAnimationTextureCoo(FAT_HUMAN_ANIMATION_NAME, FAT_HUMAN_MOVE_UP_POS_FRAME_X,
-													 FAT_HUMAN_MOVE_UP_POS_FRAME_Y,
-													 FAT_HUMAN_TEXTURE_FRAME_WIDTH, FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
+		_animComponent->resetAnimationTextureCoo( FAT_HUMAN_ANIMATION_NAME,
+												  FAT_HUMAN_MOVE_UP_POS_FRAME_X,
+												  FAT_HUMAN_MOVE_UP_POS_FRAME_Y,
+												  FAT_HUMAN_TEXTURE_FRAME_WIDTH,
+												  FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
 		moveUp();
 		ST = true;
-
 	}
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right))
 	{
-		_animComponent->resetAnimationTextureCoo(FAT_HUMAN_ANIMATION_NAME,FAT_HUMAN_MOVE_RIGHT_POS_FRAME_X,FAT_HUMAN_MOVE_RIGHT_POS_FRAME_Y,
-												 FAT_HUMAN_TEXTURE_FRAME_WIDTH,FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
+		_animComponent->resetAnimationTextureCoo( FAT_HUMAN_ANIMATION_NAME,
+												  FAT_HUMAN_MOVE_RIGHT_POS_FRAME_X,
+												  FAT_HUMAN_MOVE_RIGHT_POS_FRAME_Y,
+												  FAT_HUMAN_TEXTURE_FRAME_WIDTH,
+												  FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
 		moveRight();
 		ST = true;
 	}
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
 	{
-		_animComponent->resetAnimationTextureCoo(FAT_HUMAN_ANIMATION_NAME,FAT_HUMAN_MOVE_DOWN_POS_FRAME_X,FAT_HUMAN_MOVE_DOWN_POS_FRAME_Y,
-												 FAT_HUMAN_TEXTURE_FRAME_WIDTH,FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
+		_animComponent->resetAnimationTextureCoo( FAT_HUMAN_ANIMATION_NAME,
+												  FAT_HUMAN_MOVE_DOWN_POS_FRAME_X,
+												  FAT_HUMAN_MOVE_DOWN_POS_FRAME_Y,
+												  FAT_HUMAN_TEXTURE_FRAME_WIDTH,
+												  FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
 		moveDown();
 		ST = true;
 	}
 	if(!ST)
 	{
-		_animComponent->resetAnimationTextureCoo(FAT_HUMAN_ANIMATION_NAME,FAT_HUMAN_STANDING_POS_FRAME_X,FAT_HUMAN_STANDING_POS_FRAME_Y,
-												 FAT_HUMAN_TEXTURE_FRAME_WIDTH,FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
+		_animComponent->resetAnimationTextureCoo( FAT_HUMAN_ANIMATION_NAME,
+				                                  FAT_HUMAN_STANDING_POS_FRAME_X,
+				                                  FAT_HUMAN_STANDING_POS_FRAME_Y,
+												  FAT_HUMAN_TEXTURE_FRAME_WIDTH,
+												  FAT_HUMAN_TEXTURE_FRAME_HEIGHT);
 	}
 }
 
-
+//// problem is here.
 
 
